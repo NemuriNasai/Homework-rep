@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    border: 2px solid rgb(80, 145, 27);
+    border-radius: 5px;
+
+    grid-template: repeat(3, 1fr) / repeat(5, 1fr);
+    
+    /* grid-template-areas: "f f f f f i i i"
+                         "f f f f f i i i"
+                         "f f f f f i i i"
+                         "f f f f f o b b"
+                         "f f f f f n b b"; */
+}
+.container * {
+    border: 1px dashed;
+    border-radius: 10px;
+    background-color: rgba(82, 29, 179, 0.5);
+    text-align: center;
+}
+
+/* .A { grid-area: f; }
+.B { grid-area: i; }
+.C { grid-area: b; }
+.D { grid-area: o; }
+.E { grid-area: n; }
+ */
+ .A {
+    grid-area: 1 / 1 / 4 / 4;
+}
+
+.B {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.C {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}

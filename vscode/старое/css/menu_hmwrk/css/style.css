@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.menu_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    padding: none;
+    margin: none;
+    text-transform: uppercase;
+    color: gray;
+}
+.nav li a {
+    color: gray;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.nav li a:hover {
+    background-color: orange;
+    color: white; 
+    border-radius: 3px;
+}
+.second-container {
+    width: 1170px;
+    margin: 0 auto; 
+}
+.merits {
+    display: flex;
+    text-transform: uppercase;
+    
+}
+.numbers {
+    list-style: none;
+}

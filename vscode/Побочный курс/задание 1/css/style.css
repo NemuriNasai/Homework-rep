@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1170px; /*относительно стандартная ширина для сайтов*/
+    margin: 0 auto; /* отцентровка элемента, 0 сверху и снизу, авто - по бокам*/
+}
+
+.logo {
+    width: 180px;
+}
+
+.menu__inner {
+    margin: 25px 0; /*отступы для внутренней менюшки*/
+    display: flex; /*для превращения элемента во флекс контейнер*/
+    justify-content: space-between; /*чтобы крайние элементы прижались к краям родителя, а расстояние между ними было распределено равномерно*/
+    align-items: center; /*выравнивание элементов по вертикали*/
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;   
+}
+
+.nav li a { /*свойства для конкретно ссылок пунктов списка, т.е. для тега а*/
+    text-transform: uppercase;
+    color: #999; 
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav li a:hover {
+    background-color: #ffc744;
+    color: #fff;
+    border-radius: 5px; /*скругленный радиус цвета вокруг букв*/
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1170px; /*относительно стандартная ширина для сайтов*/
+    margin: 0 auto; /* отцентровка элемента, 0 сверху и снизу, авто - по бокам*/
+}
+
+.logo {
+    width: 180px;
+}
+
+.menu__inner {
+    margin: 25px 0; /*отступы для внутренней менюшки*/
+    display: flex; /*для превращения элемента во флекс контейнер*/
+    justify-content: space-between; /*чтобы крайние элементы прижались к краям родителя, а расстояние между ними было распределено равномерно*/
+    align-items: center; /*выравнивание элементов по вертикали*/
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;   
+}
+
+.nav li a { /*свойства для конкретно ссылок пунктов списка, т.е. для тега а*/
+    text-transform: uppercase;
+    color: #999; 
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav li a:hover {
+    background-color: #ffc744;
+    color: #fff;
+    border-radius: 5px; /*скругленный радиус цвета вокруг букв*/
+}
+
+

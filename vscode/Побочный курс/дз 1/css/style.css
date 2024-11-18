@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    /* #9a553b
+    #0b2d36 */
+}
+
+.info {
+    background-color: #0b2d36;
+}
+
+.container {
+    width: 1170px;
+}
+
+.info__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.item {
+    text-align: center;
+}
+
+.numbers {
+    color: #9a553b;
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.data {
+    text-transform: uppercase;
+    color: white;
+}

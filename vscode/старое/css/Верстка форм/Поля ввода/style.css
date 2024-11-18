@@ -1,0 +1,33 @@
+.form-hint {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    }
+.field {
+    box-sizing: border-box;
+    width: 640px;
+    border: 1px solid #222222;
+    padding: 15px 20px;
+    }
+.field:focus {
+    background: green;
+}
+.textarea {
+    min-width: 640px;
+    max-width: 640px;
+    min-height: 150px;
+    max-height: 200px;
+}
+.button {
+    border: none;
+    padding: 15px 55px;
+    color: #ffffff;
+    background-color: #e74c3c;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group {
+    display: block;
+}
